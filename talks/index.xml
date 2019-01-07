@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on Introduction</title>
-    <link>http://www.dudewho.codes/talks/</link>
+    <link>https://dudewhocode.github.io/talks/</link>
     <description>Recent content in Talks on Introduction</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Jan 2019 23:25:35 +0530</lastBuildDate>
     
-	<atom:link href="http://www.dudewho.codes/talks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dudewhocode.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Concurrency vs Parallelism</title>
-      <link>http://www.dudewho.codes/talks/concurrency/</link>
+      <link>https://dudewhocode.github.io/talks/concurrency/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dudewho.codes/talks/concurrency/</guid>
+      <guid>https://dudewhocode.github.io/talks/concurrency/</guid>
       <description>A good code is one which uses the system resources efficiently which means not over utilizing the resources as well as not under utilizing by leaving them idle. One of the main features of Python3 is its asynchronous capabilities. After getting to know what is concurrency and why concurrency is not parallelism. We will see how can we leverage the asyncio library&amp;rsquo;s functionalities to design and run our code concurrently, use our resources efficiently and finish the tasks blazingly fast.</description>
     </item>
     
     <item>
       <title>Building and Scaling a serverless logging platform</title>
-      <link>http://www.dudewho.codes/talks/serverless/</link>
+      <link>https://dudewhocode.github.io/talks/serverless/</link>
       <pubDate>Sun, 06 Jan 2019 23:25:35 +0530</pubDate>
       
-      <guid>http://www.dudewho.codes/talks/serverless/</guid>
+      <guid>https://dudewhocode.github.io/talks/serverless/</guid>
       <description>Serverless architectures has been around for past few years and there has been quite a few skepticism surrounding it. Few might argue that it’s just another buzzword for marketing. But serverless architectures offer more than a catchy buzzword. In this talk we will discuss, what is serverless, when to and when not to use them and how can we use Amazon Web Services to implement a real-time, production grade serverless logging pipeline.</description>
     </item>
     
     <item>
       <title>Empathy maketh an Engineer</title>
-      <link>http://www.dudewho.codes/talks/empathy/</link>
+      <link>https://dudewhocode.github.io/talks/empathy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dudewho.codes/talks/empathy/</guid>
+      <guid>https://dudewhocode.github.io/talks/empathy/</guid>
       <description>The journey towards becoming a better developer involves in more than just coding. Empathy is the most important skill that any developer should practice. In this talk we will see as a developer how to write code empathetically and how empathy will help you to become a better software craftsman. By the end of the talk, audience will know how to practice empathy, build great softwares and great teams empathetically.</description>
     </item>
     
     <item>
       <title>Don&#39;t just stop with your Fibonacci code</title>
-      <link>http://www.dudewho.codes/talks/fibonacci/</link>
+      <link>https://dudewhocode.github.io/talks/fibonacci/</link>
       <pubDate>Mon, 07 Jan 2019 08:40:28 +0530</pubDate>
       
-      <guid>http://www.dudewho.codes/talks/fibonacci/</guid>
+      <guid>https://dudewhocode.github.io/talks/fibonacci/</guid>
       <description>A fun and meme filled lightning talk for university students on whats waiting for them in the software world out there and how to stand out in the crowd.
 Slides</description>
     </item>
     
     <item>
       <title>Write code for humans, not machines</title>
-      <link>http://www.dudewho.codes/talks/code_for_humans/</link>
+      <link>https://dudewhocode.github.io/talks/code_for_humans/</link>
       <pubDate>Mon, 07 Jan 2019 08:38:05 +0530</pubDate>
       
-      <guid>http://www.dudewho.codes/talks/code_for_humans/</guid>
+      <guid>https://dudewhocode.github.io/talks/code_for_humans/</guid>
       <description>Any average programmer can write code by sitting hours and hours, pushing themselves through the sleepless nights but what it takes to write a better readable code?Forget about the design patterns, I will be talking ground zero from naming variables to handling errors in your python code. After the talk the audience will know how to get started with good programming habits and how not to annoy the code readers:)</description>
     </item>
     
     <item>
       <title>IOT meets Serverless</title>
-      <link>http://www.dudewho.codes/talks/iot_serverless/</link>
+      <link>https://dudewhocode.github.io/talks/iot_serverless/</link>
       <pubDate>Mon, 07 Jan 2019 08:35:14 +0530</pubDate>
       
-      <guid>http://www.dudewho.codes/talks/iot_serverless/</guid>
+      <guid>https://dudewhocode.github.io/talks/iot_serverless/</guid>
       <description>Speed and agility are the most expected in today’s analytics tools. The quicker you get from idea to insights, the more you can innovate &amp;amp; perform ad-hoc data analysis. I will be talking about how we can use AWS serverless architecture to stream IoT data, managed by python. We can be up and running in minutes―starting small, but able to easily grow to millions of devices and billions of messages.</description>
     </item>
     

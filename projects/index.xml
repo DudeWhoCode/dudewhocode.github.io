@@ -25,7 +25,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dudewhocode.github.io/projects/vuestudio/</guid>
-      <description>Featured Skills: Python3, Django, Serverless, AWS ECS, lambda, Athena, Transcoder, Docker Shop The Video is an A.I powered video marketing tool that helps the customer to monetize their video assets. It enables the purchase of the fashion items appearing on the video, directly form the video player. I am working closely with the frontend and product design team in architecting and developing an highly scalable backend.</description>
+      <description>Featured Skills: Python3, Django, Serverless, AWS ECS, lambda, Athena, Transcoder, Docker I worked on this when I was a product engineer at MadStreetDen.
+Vue Studio is an A.I powered video marketing tool that helps the customer to monetize their video assets. It enables the purchase of the fashion items appearing on the video, directly form the video player. I am working closely with the frontend and product design team in architecting and developing an highly scalable backend.</description>
     </item>
     
     <item>
@@ -34,7 +35,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dudewhocode.github.io/projects/madstack/</guid>
-      <description>Featured Skills: Python, Golang, PostgreSQL, Django, MicroServices, AWS, Docker One of the core engineer who helped in abstracting a large, monolithic A.I platform into microservices architecture. This paved the way for MadStreetDen to build a full scale e-commerce suite of products: vue commerce. This platform sits as a base for most of the A.I products coming out of the company.</description>
+      <description>Featured Skills: Python, Golang, PostgreSQL, Django, MicroServices, AWS, Docker I worked on this when I was a product engineer at MadStreetDen.
+One of the core engineer who helped in abstracting a large, monolithic A.I platform into microservices architecture. This paved the way for MadStreetDen to build a full scale e-commerce suite of products: vue commerce. This platform sits as a base for most of the A.I products coming out of the company.</description>
     </item>
     
   </channel>

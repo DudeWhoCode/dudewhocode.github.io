@@ -29,7 +29,17 @@ Events: Pycon Malaysia 2018, Pycon India 2018</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://dudewho.codes/projects/backendarmy/</guid>
-      <description>I am currently building Backend Army. It is premium hands on courses to scale one&amp;rsquo;s backend skills. I am trying to bridge the gap between learning backend engineering by shipping to production vs hands on video courses.</description>
+      <description>I am currently building Backend Army. It is premium hands on courses to scale one&amp;rsquo;s backend skills. I am trying to bridge the gap between learning backend engineering by shipping to production and hands on video courses.</description>
+    </item>
+    
+    <item>
+      <title>Paraview Session Manager</title>
+      <link>http://dudewho.codes/projects/pvsession/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/pvsession/</guid>
+      <description>Featured Skills: Golang, Docker, Caddy Web Server, WebSockets, Azure Cloud I am currently working on this project as I am consulting for the valley based startup, DataCloud.
+One of the products of DataCloud helps the mining industry to visualize what is under the mountain before starting the actual mining. This will help miners to decide on the equipments and dynamites. I built the backend for the visualization tool that spins off docker containers on demand with custom mount points from azure blob storage.</description>
     </item>
     
     <item>
@@ -48,7 +58,7 @@ Events: Pycon Malaysia 2018, Pycon India 2018</description>
       
       <guid>http://dudewho.codes/projects/vuestudio/</guid>
       <description>Featured Skills: Python3, Django, Serverless, AWS ECS, lambda, Athena, Transcoder, Docker I worked on this when I was a product engineer at MadStreetDen.
-Vue Studio is an A.I powered video marketing tool that helps the customer to monetize their video assets. It enables the purchase of the fashion items appearing on the video, directly form the video player. I am working closely with the frontend and product design team in architecting and developing an highly scalable backend.</description>
+Vue Studio is an A.I powered video marketing tool that helps the customer to monetize their video assets. It enables the purchase of the fashion items appearing on the video, directly form the video player. I worked closely with the frontend and product design team in architecting and developing an highly scalable backend.</description>
     </item>
     
     <item>

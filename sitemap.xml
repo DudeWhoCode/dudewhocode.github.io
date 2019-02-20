@@ -3,20 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://dudewho.codes/talks/grpc/</loc>
+    <lastmod>2019-01-07T08:38:05+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dudewho.codes/projects/backendarmy/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/talks/concurrency/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/talks/serverless/</loc>
-    <lastmod>2019-01-06T23:25:35+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/projects/vuestudio/</loc>
   </url>
   
   <url>
@@ -24,17 +16,15 @@
   </url>
   
   <url>
+    <loc>http://dudewho.codes/projects/vuestudio/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/talks/concurrency/</loc>
+  </url>
+  
+  <url>
     <loc>http://dudewho.codes/projects/madstack/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/talks/fibonacci/</loc>
-    <lastmod>2019-01-07T08:40:28+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/talks/code_for_humans/</loc>
-    <lastmod>2019-01-07T08:38:05+05:30</lastmod>
   </url>
   
   <url>
@@ -43,8 +33,23 @@
   </url>
   
   <url>
-    <loc>http://dudewho.codes/</loc>
+    <loc>http://dudewho.codes/talks/serverless/</loc>
     <lastmod>2019-01-06T23:25:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/talks/code_for_humans/</loc>
+    <lastmod>2019-01-07T08:38:05+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/talks/fibonacci/</loc>
+    <lastmod>2019-01-07T08:40:28+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/</loc>
+    <lastmod>2019-01-07T08:38:05+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,7 +64,7 @@
   
   <url>
     <loc>http://dudewho.codes/talks/</loc>
-    <lastmod>2019-01-06T23:25:35+05:30</lastmod>
+    <lastmod>2019-01-07T08:38:05+05:30</lastmod>
   </url>
   
 </urlset>

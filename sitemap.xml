@@ -8,11 +8,11 @@
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/backendarmy/</loc>
+    <loc>http://dudewho.codes/projects/pvsession/</loc>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/pvsession/</loc>
+    <loc>http://dudewho.codes/projects/devops_culturalist/</loc>
   </url>
   
   <url>
@@ -20,15 +20,11 @@
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/vuestudio/</loc>
+    <loc>http://dudewho.codes/projects/backendarmy/</loc>
   </url>
   
   <url>
     <loc>http://dudewho.codes/talks/concurrency/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/projects/madstack/</loc>
   </url>
   
   <url>
@@ -37,8 +33,16 @@
   </url>
   
   <url>
+    <loc>http://dudewho.codes/projects/vuestudio/</loc>
+  </url>
+  
+  <url>
     <loc>http://dudewho.codes/talks/serverless/</loc>
     <lastmod>2019-01-06T23:25:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/projects/madstack/</loc>
   </url>
   
   <url>

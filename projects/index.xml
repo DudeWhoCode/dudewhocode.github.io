@@ -11,22 +11,32 @@
     
     
     <item>
-      <title>Backend Army</title>
-      <link>http://dudewho.codes/projects/backendarmy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://dudewho.codes/projects/backendarmy/</guid>
-      <description>I am currently building Backend Army. It is premium hands on courses to scale one&amp;rsquo;s backend skills. I am trying to bridge the gap between learning backend engineering by shipping to production and hands on video courses.</description>
-    </item>
-    
-    <item>
       <title>Paraview Session Manager</title>
       <link>http://dudewho.codes/projects/pvsession/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://dudewho.codes/projects/pvsession/</guid>
       <description>Featured Skills: Golang, Docker, Caddy Web Server, WebSockets, Azure Cloud I am currently working on this project as I am consulting for the valley based startup, DataCloud.
-One of the products of DataCloud helps the mining industry to visualize what is under the mountain before starting the actual mining. This will help miners to decide on the equipments and dynamites. I built the backend for the visualization tool that spins off docker containers on demand with custom mount points from azure blob storage.</description>
+One of the products of DataCloud is used by mining industry to visualize what is under the mountain before starting the actual mining. This will help miners to decide on the equipments and dynamites. I built the backend to support the visualization tool that spins off docker containers on demand with custom mount points from azure blob storage.</description>
+    </item>
+    
+    <item>
+      <title>Devops Culturalist</title>
+      <link>http://dudewho.codes/projects/devops_culturalist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/devops_culturalist/</guid>
+      <description>Featured Skills: Devops cycle, Ansible, CircleCI, Docker, Convincing People:) Not a project per se, but a fancy name init?
+I have been pushing devops practices into the company for which I currently consult: DataCloud. I started it by giving a talk on what devops is, then setting up basic git practices, branch ethics, test cases and finally CI/CD systems.</description>
+    </item>
+    
+    <item>
+      <title>Backend Army</title>
+      <link>http://dudewho.codes/projects/backendarmy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/backendarmy/</guid>
+      <description>I am currently side hustling with Backend Army. It is premium hands on courses to scale one&amp;rsquo;s backend skills. I am trying to bridge the gap between learning backend engineering by shipping to production and hands on video courses. You can checkout the publication here.</description>
     </item>
     
     <item>

@@ -12,11 +12,11 @@
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/devops_culturalist/</loc>
+    <loc>http://dudewho.codes/talks/empathy/</loc>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/empathy/</loc>
+    <loc>http://dudewho.codes/projects/vuestudio/</loc>
   </url>
   
   <url>
@@ -33,7 +33,7 @@
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/vuestudio/</loc>
+    <loc>http://dudewho.codes/projects/madstack/</loc>
   </url>
   
   <url>
@@ -42,7 +42,7 @@
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/madstack/</loc>
+    <loc>http://dudewho.codes/projects/serverless/</loc>
   </url>
   
   <url>
@@ -51,8 +51,32 @@
   </url>
   
   <url>
+    <loc>http://dudewho.codes/projects/restful-db/</loc>
+  </url>
+  
+  <url>
     <loc>http://dudewho.codes/talks/fibonacci/</loc>
     <lastmod>2019-01-07T08:40:28+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/projects/message-router/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/projects/ingestion-service/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/projects/devops-culturalist/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/projects/ddmp/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dudewho.codes/projects/emoto-data/</loc>
   </url>
   
   <url>

@@ -16,27 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://dudewho.codes/projects/pvsession/</guid>
-      <description>Featured Skills: Golang, Docker, Caddy Web Server, WebSockets, Azure Cloud I am currently working on this project as I am consulting for the valley based startup, DataCloud.
-One of the products of DataCloud is used by mining industry to visualize what is under the mountain before starting the actual mining. This will help miners to decide on the equipments and dynamites. I built the backend to support the visualization tool that spins off docker containers on demand with custom mount points from azure blob storage.</description>
-    </item>
-    
-    <item>
-      <title>Devops Culturalist</title>
-      <link>http://dudewho.codes/projects/devops_culturalist/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://dudewho.codes/projects/devops_culturalist/</guid>
-      <description>Featured Skills: Devops cycle, Ansible, CircleCI, Docker, Convincing People:) Not a project per se, but a fancy name init?
-I have been pushing devops practices into the company for which I currently consult: DataCloud. I started it by giving a talk on what devops is, then setting up basic git practices, branch ethics, test cases and finally CI/CD systems.</description>
-    </item>
-    
-    <item>
-      <title>Backend Army</title>
-      <link>http://dudewho.codes/projects/backendarmy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://dudewho.codes/projects/backendarmy/</guid>
-      <description>I am currently side hustling with Backend Army. It is premium hands on courses to scale one&amp;rsquo;s backend skills. I am trying to bridge the gap between learning backend engineering by shipping to production and hands on video courses. You can checkout the publication here.</description>
+      <description>Featured Skills: Golang, Docker, Caddy Web Server, WebSockets, Azure Cloud Company: TarkaLabs
+One of the products of a client is used by mining industry to visualize what is under the mountain before starting the actual mining. This will help miners to decide on the equipments and dynamites. I built the backend to support the visualization tool that spins off docker containers on demand with custom mount points from azure blob storage.</description>
     </item>
     
     <item>
@@ -50,13 +31,93 @@ Vue Studio is an A.I powered video marketing tool that helps the customer to mon
     </item>
     
     <item>
+      <title>Backend Army</title>
+      <link>http://dudewho.codes/projects/backendarmy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/backendarmy/</guid>
+      <description>I am currently side hustling with Backend Army. It is premium hands on courses to scale one&amp;rsquo;s backend skills. I am trying to bridge the gap between learning backend engineering by shipping to production and hands on video courses. You can checkout the publication here.</description>
+    </item>
+    
+    <item>
       <title>MAD stack</title>
       <link>http://dudewho.codes/projects/madstack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://dudewho.codes/projects/madstack/</guid>
-      <description>Featured Skills: Python, Golang, PostgreSQL, Django, MicroServices, AWS, Docker I worked on this when I was a product engineer at MadStreetDen.
+      <description>Featured Skills: Python, Golang, PostgreSQL, Django, MicroServices, AWS, Docker Company: MadStreetDen
 One of the core engineer who helped in abstracting a large, monolithic A.I platform into microservices architecture. This paved the way for MadStreetDen to build a full scale e-commerce suite of products: vue commerce. This platform sits as a base for most of the A.I products coming out of the company.</description>
+    </item>
+    
+    <item>
+      <title>Serverless Logging framework</title>
+      <link>http://dudewho.codes/projects/serverless/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/serverless/</guid>
+      <description>Featured Skills: Python, OOP, AWS Lambda, AWS Athena, AWS Kinesis, AWS quicksight, AWS s3, Redis Company: MadStreetDen
+Implemented a logging client with OOP paradigms in mind. The object oriented approach helped in distributing the ownership of data integrity among all owners of the microservices where logging client is used. I also implemented a serverless backend for this logging framework.</description>
+    </item>
+    
+    <item>
+      <title>RESTful DB</title>
+      <link>http://dudewho.codes/projects/restful-db/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/restful-db/</guid>
+      <description>Featured Skills: Python, Django, Postgresql, Psycopg2, ORM, uWSGI Company: MadStreetDen
+Developed a REST API driven microservice around PostgreSQL database. This helped in rapid iterations of schema changes. Even though there were multiple microservices using the database, only this microservice had to be touched in case of schema change. Was able to derive more insights about slow queries and traffic patterns that affects the DataBase in API layer itself. API versioning helped in canary deployment for new schema roll outs.</description>
+    </item>
+    
+    <item>
+      <title>Message Routing MicroService</title>
+      <link>http://dudewho.codes/projects/message-router/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/message-router/</guid>
+      <description> Featured Skills: Python, Multi-threading, Concurrency Company: MadStreetDen
+ Built an I/O heavy, multi-tenant microservice that sits in ingestion part of the pipeline. This routes the data (products from the catalog) to different microservices and scales horizontally. Used multi threading to achieve the throughput of 10K messages per minute.  </description>
+    </item>
+    
+    <item>
+      <title>Ingestion MicroService</title>
+      <link>http://dudewho.codes/projects/ingestion-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/ingestion-service/</guid>
+      <description> Featured Skills: Python, Multi-threading, Multi-processing Company: MadStreetDen
+ Developed a framework to ingest and parse product catalogs from various sources like HTTP, FTP, AWS SQS, S3. Implemented in a Object Oriented way which helped in writing custom parser for different e-commerce clients.  </description>
+    </item>
+    
+    <item>
+      <title>Devops Culturalist</title>
+      <link>http://dudewho.codes/projects/devops-culturalist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/devops-culturalist/</guid>
+      <description>Featured Skills: Devops cycle, Ansible, CircleCI, Docker, Convincing People:) Company: TarkaLabs
+Not a project per se, but a fancy name init?
+I was pushing devops practices into the team for which I consulted for: DataCloud. I started it by giving a talk on what devops is, then setting up basic git practices, branch ethics, test cases and finally CI/CD systems.</description>
+    </item>
+    
+    <item>
+      <title>Decahose Data Management Platform</title>
+      <link>http://dudewho.codes/projects/ddmp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/ddmp/</guid>
+      <description> Featured Skills: Python, Apache Kafka, Storm, Cassandra, ElasticSearch Company: Serendio
+ Architected and developed a real-time data pipeline. This pipeline ingests high volume of twitter stream, extract information on the fly using NLP and expose the stored data via REST API. This pipeline was deployed in bare metal servers.  </description>
+    </item>
+    
+    <item>
+      <title>Emoto Data</title>
+      <link>http://dudewho.codes/projects/emoto-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dudewho.codes/projects/emoto-data/</guid>
+      <description> Featured Skills: Python, Kafka, Cassandra, ElasticSearch Company: Serendio
+ Developed an architecture to handle streaming data from Chinese websites. This service streams data from various Chinese websites like sina weibo, tencent, renren, etc. enriches it on the fly and stores them.  </description>
     </item>
     
   </channel>

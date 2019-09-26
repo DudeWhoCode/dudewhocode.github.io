@@ -3,150 +3,150 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/talks/programming_language/</loc>
+    <loc>http://dudewho.codes/talks/programming_language/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>http://dudewho.codes/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>http://dudewho.codes/tags/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/</loc>
+    <loc>http://dudewho.codes/talks/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/talks/</loc>
+    <loc>http://dudewho.codes/tags/talks/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/meta_talk/</loc>
+    <loc>http://dudewho.codes/talks/meta_talk/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/grpc/</loc>
+    <loc>http://dudewho.codes/talks/grpc/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/empathy/</loc>
+    <loc>http://dudewho.codes/talks/empathy/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/pvsession/</loc>
+    <loc>http://dudewho.codes/projects/pvsession/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/</loc>
+    <loc>http://dudewho.codes/projects/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/concurrency/</loc>
+    <loc>http://dudewho.codes/talks/concurrency/</loc>
     <lastmod>2018-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/magic_methods/</loc>
+    <loc>http://dudewho.codes/talks/magic_methods/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/devoops/</loc>
+    <loc>http://dudewho.codes/talks/devoops/</loc>
     <lastmod>2018-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/newsletter/</loc>
+    <loc>http://dudewho.codes/projects/newsletter/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/vuestudio/</loc>
+    <loc>http://dudewho.codes/projects/vuestudio/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/serverless/</loc>
+    <loc>http://dudewho.codes/projects/serverless/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/serverless_logging/</loc>
+    <loc>http://dudewho.codes/talks/serverless_logging/</loc>
     <lastmod>2017-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/iot_serverless/</loc>
+    <loc>http://dudewho.codes/talks/iot_serverless/</loc>
     <lastmod>2017-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/restfuldb/</loc>
+    <loc>http://dudewho.codes/projects/restfuldb/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/code_for_humans/</loc>
+    <loc>http://dudewho.codes/talks/code_for_humans/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/talks/fibonacci/</loc>
+    <loc>http://dudewho.codes/talks/fibonacci/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/ingestion/</loc>
+    <loc>http://dudewho.codes/projects/ingestion/</loc>
     <lastmod>2016-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/madstack/</loc>
+    <loc>http://dudewho.codes/projects/madstack/</loc>
     <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/message_router/</loc>
+    <loc>http://dudewho.codes/projects/message_router/</loc>
     <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/ddmp/</loc>
+    <loc>http://dudewho.codes/projects/ddmp/</loc>
     <lastmod>2015-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/projects/emotodata/</loc>
+    <loc>http://dudewho.codes/projects/emotodata/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>http://dudewho.codes/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/blog/</loc>
+    <loc>http://dudewho.codes/blog/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/post/</loc>
+    <loc>http://dudewho.codes/post/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/newsletter/</loc>
+    <loc>http://dudewho.codes/newsletter/</loc>
   </url>
   
 </urlset>

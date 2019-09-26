@@ -3,105 +3,150 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://dudewho.codes/talks/grpc/</loc>
-    <lastmod>2019-01-07T08:38:05+05:30</lastmod>
+    <loc>https://example.com/talks/programming_language/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/pvsession/</loc>
+    <loc>https://example.com/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/empathy/</loc>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/vuestudio/</loc>
+    <loc>https://example.com/talks/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/backendarmy/</loc>
+    <loc>https://example.com/tags/talks/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/concurrency/</loc>
+    <loc>https://example.com/talks/meta_talk/</loc>
+    <lastmod>2019-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/iot_serverless/</loc>
-    <lastmod>2019-01-07T08:35:14+05:30</lastmod>
+    <loc>https://example.com/talks/grpc/</loc>
+    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/madstack/</loc>
+    <loc>https://example.com/talks/empathy/</loc>
+    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/serverless/</loc>
-    <lastmod>2019-01-06T23:25:35+05:30</lastmod>
+    <loc>https://example.com/projects/pvsession/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/serverless/</loc>
+    <loc>https://example.com/projects/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/code_for_humans/</loc>
-    <lastmod>2019-01-07T08:38:05+05:30</lastmod>
+    <loc>https://example.com/talks/concurrency/</loc>
+    <lastmod>2018-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/restful-db/</loc>
+    <loc>https://example.com/talks/magic_methods/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/fibonacci/</loc>
-    <lastmod>2019-01-07T08:40:28+05:30</lastmod>
+    <loc>https://example.com/talks/devoops/</loc>
+    <lastmod>2018-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/message-router/</loc>
+    <loc>https://example.com/projects/newsletter/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/ingestion-service/</loc>
+    <loc>https://example.com/projects/vuestudio/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/devops-culturalist/</loc>
+    <loc>https://example.com/projects/serverless/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/ddmp/</loc>
+    <loc>https://example.com/talks/serverless_logging/</loc>
+    <lastmod>2017-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/emoto-data/</loc>
+    <loc>https://example.com/talks/iot_serverless/</loc>
+    <lastmod>2017-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/</loc>
-    <lastmod>2019-01-07T08:40:28+05:30</lastmod>
-    <priority>0</priority>
+    <loc>https://example.com/projects/restfuldb/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/</loc>
-    <lastmod>2019-01-07T08:40:28+05:30</lastmod>
+    <loc>https://example.com/talks/code_for_humans/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/hire-me/</loc>
-    <priority>0</priority>
+    <loc>https://example.com/talks/fibonacci/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/</loc>
+    <loc>https://example.com/projects/ingestion/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/tags/</loc>
-    <priority>0</priority>
+    <loc>https://example.com/projects/madstack/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/projects/message_router/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/projects/ddmp/</loc>
+    <lastmod>2015-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/projects/emotodata/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/newsletter/</loc>
   </url>
   
 </urlset>

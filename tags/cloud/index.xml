@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on DudeWhoCode</title>
+    <link>https://dudewho.codes/tags/cloud/</link>
+    <description>Recent content in Cloud on DudeWhoCode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Jan 2019 07:51:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://dudewho.codes/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to System Architecture Design</title>
+      <link>https://dudewho.codes/system-architecture-design/</link>
+      <pubDate>Sat, 12 Jan 2019 07:51:08 +0000</pubDate>
+      
+      <guid>https://dudewho.codes/system-architecture-design/</guid>
+      <description>System Architecture Design sometimes simply known as System Design is a conceptual representation of the components and subcomponents that reflects the behaviour of a system.
+System architects or solution architects are the people who know what components to choose for the specific use case, make right trade-offs with awareness of the bottlenecks in the overall system.
+Usually, solution architects who have more years of experience tend to be good at system architecting because system design is an open-ended problem, there is no one correct solution.</description>
+    </item>
+    
+  </channel>
+</rss>

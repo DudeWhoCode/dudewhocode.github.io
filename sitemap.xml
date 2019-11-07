@@ -1,152 +1,163 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://dudewho.codes/talks/programming_language/</loc>
+    <loc>https://dudewho.codes/talks/programming_language/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/</loc>
+    <loc>https://dudewho.codes/</loc>
+    <lastmod>2019-09-26T14:03:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dudewho.codes/tags/</loc>
+    <lastmod>2019-09-26T14:03:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dudewho.codes/talks/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/tags/</loc>
+    <loc>https://dudewho.codes/tags/talks/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/</loc>
-    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/tags/talks/</loc>
-    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/talks/meta_talk/</loc>
+    <loc>https://dudewho.codes/talks/meta_talk/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/grpc/</loc>
+    <loc>https://dudewho.codes/talks/grpc/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/empathy/</loc>
+    <loc>https://dudewho.codes/talks/empathy/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/pvsession/</loc>
+    <loc>https://dudewho.codes/tags/architecture/</loc>
+    <lastmod>2019-09-26T14:03:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dudewho.codes/tags/cloud/</loc>
+    <lastmod>2019-09-26T14:03:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dudewho.codes/system-architecture-design/</loc>
+    <lastmod>2019-09-26T14:03:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dudewho.codes/post/</loc>
+    <lastmod>2019-09-26T14:03:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dudewho.codes/projects/pvsession/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/</loc>
+    <loc>https://dudewho.codes/projects/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/concurrency/</loc>
+    <loc>https://dudewho.codes/talks/concurrency/</loc>
     <lastmod>2018-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/magic_methods/</loc>
+    <loc>https://dudewho.codes/talks/magic_methods/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/devoops/</loc>
+    <loc>https://dudewho.codes/talks/devoops/</loc>
     <lastmod>2018-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/vuestudio/</loc>
+    <loc>https://dudewho.codes/projects/vuestudio/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/serverless/</loc>
+    <loc>https://dudewho.codes/projects/serverless/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/serverless_logging/</loc>
+    <loc>https://dudewho.codes/talks/serverless_logging/</loc>
     <lastmod>2017-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/iot_serverless/</loc>
+    <loc>https://dudewho.codes/talks/iot_serverless/</loc>
     <lastmod>2017-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/restfuldb/</loc>
+    <loc>https://dudewho.codes/projects/restfuldb/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/code_for_humans/</loc>
+    <loc>https://dudewho.codes/talks/code_for_humans/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/talks/fibonacci/</loc>
+    <loc>https://dudewho.codes/talks/fibonacci/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/ingestion/</loc>
+    <loc>https://dudewho.codes/projects/ingestion/</loc>
     <lastmod>2016-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/madstack/</loc>
+    <loc>https://dudewho.codes/projects/madstack/</loc>
     <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/message_router/</loc>
+    <loc>https://dudewho.codes/projects/message_router/</loc>
     <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/ddmp/</loc>
+    <loc>https://dudewho.codes/projects/ddmp/</loc>
     <lastmod>2015-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/projects/emotodata/</loc>
+    <loc>https://dudewho.codes/projects/emotodata/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/about/</loc>
+    <loc>https://dudewho.codes/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/2019-10-31_going-solo/</loc>
-    <priority>0</priority>
+    <loc>https://dudewho.codes/blog/</loc>
   </url>
   
   <url>
-    <loc>http://dudewho.codes/blog/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/post/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dudewho.codes/newsletter/</loc>
+    <loc>https://dudewho.codes/newsletter/</loc>
   </url>
   
 </urlset>

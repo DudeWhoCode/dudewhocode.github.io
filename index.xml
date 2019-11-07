@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hi 👋 I am Naren. on DudeWhoCode</title>
-    <link>http://dudewho.codes/</link>
+    <link>https://dudewho.codes/</link>
     <description>Recent content in Hi 👋 I am Naren. on DudeWhoCode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://dudewho.codes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dudewho.codes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating a programming language for fun</title>
-      <link>http://dudewho.codes/talks/programming_language/</link>
+      <link>https://dudewho.codes/talks/programming_language/</link>
       <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/programming_language/</guid>
+      <guid>https://dudewho.codes/talks/programming_language/</guid>
       <description>-- 
 Creating an interpreter or a programming language can sound complicated but in reality getting started with it is not that difficult as it sounds – it is a bunch of switch statements and recursive logics. In this talk I am going to give an introduction to interpreter internals and we are going to walk through the high level blocks and the Golang code to create a simple interpreted programming language.</description>
     </item>
     
     <item>
       <title>A talk on how to give a talk</title>
-      <link>http://dudewho.codes/talks/meta_talk/</link>
+      <link>https://dudewho.codes/talks/meta_talk/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/meta_talk/</guid>
+      <guid>https://dudewho.codes/talks/meta_talk/</guid>
       <description>The Meta Talk!
 
 Slides  Events: Chennaipy, April 2019</description>
@@ -34,10 +34,10 @@ Slides  Events: Chennaipy, April 2019</description>
     
     <item>
       <title>Building better python microservices with GRPC</title>
-      <link>http://dudewho.codes/talks/grpc/</link>
+      <link>https://dudewho.codes/talks/grpc/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/grpc/</guid>
+      <guid>https://dudewho.codes/talks/grpc/</guid>
       <description>Today, massive systems are running on microservices communicating with each other using REST APIs. HTTP is easy to get started, loosely structured and does good job in exchanging messages. But it&amp;rsquo;s convenience comes with a performance trade-off, which takes us back to other optimal alternative: gRPC
 
 Slides  Events: Pycon Malaysia 2018, Pycon India 2018</description>
@@ -45,38 +45,49 @@ Slides  Events: Pycon Malaysia 2018, Pycon India 2018</description>
     
     <item>
       <title>Empathy maketh an Engineer</title>
-      <link>http://dudewho.codes/talks/empathy/</link>
+      <link>https://dudewho.codes/talks/empathy/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/empathy/</guid>
+      <guid>https://dudewho.codes/talks/empathy/</guid>
       <description>The journey towards becoming a better developer involves in more than just coding. Empathy is the most important skill that any developer should practice. In this talk we will see as a developer how to write code empathetically and how empathy will help you to become a better software craftsman. By the end of the talk, audience will know how to practice empathy, build great softwares and great teams empathetically.</description>
     </item>
     
     <item>
+      <title>Introduction to System Architecture Design</title>
+      <link>https://dudewho.codes/system-architecture-design/</link>
+      <pubDate>Sat, 12 Jan 2019 07:51:08 +0000</pubDate>
+      
+      <guid>https://dudewho.codes/system-architecture-design/</guid>
+      <description>System Architecture Design sometimes simply known as System Design is a conceptual representation of the components and subcomponents that reflects the behaviour of a system.
+System architects or solution architects are the people who know what components to choose for the specific use case, make right trade-offs with awareness of the bottlenecks in the overall system.
+Usually, solution architects who have more years of experience tend to be good at system architecting because system design is an open-ended problem, there is no one correct solution.</description>
+    </item>
+    
+    <item>
       <title>Paraview Session Manager</title>
-      <link>http://dudewho.codes/projects/pvsession/</link>
+      <link>https://dudewho.codes/projects/pvsession/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/projects/pvsession/</guid>
+      <guid>https://dudewho.codes/projects/pvsession/</guid>
       <description>Featured Skills: Golang, Docker, Caddy Web Server, WebSockets, Azure Cloud Company: TarkaLabs
 One of the products of a client is used by mining industry to visualize what is under the mountain before starting the actual mining. This will help miners to decide on the equipments and dynamites. I built the backend to support the visualization tool that spins off docker containers on demand with custom mount points from azure blob storage.</description>
     </item>
     
     <item>
       <title>Concurrency vs Parallelism</title>
-      <link>http://dudewho.codes/talks/concurrency/</link>
+      <link>https://dudewho.codes/talks/concurrency/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/concurrency/</guid>
+      <guid>https://dudewho.codes/talks/concurrency/</guid>
       <description>A good code is one which uses the system resources efficiently which means not over utilizing the resources as well as not under utilizing by leaving them idle. One of the main features of Python3 is its asynchronous capabilities. After getting to know what is concurrency and why concurrency is not parallelism. We will see how can we leverage the asyncio library&amp;rsquo;s functionalities to design and run our code concurrently, use our resources efficiently and finish the tasks blazingly fast.</description>
     </item>
     
     <item>
       <title>Demystifying python magic __methods__</title>
-      <link>http://dudewho.codes/talks/magic_methods/</link>
+      <link>https://dudewho.codes/talks/magic_methods/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/magic_methods/</guid>
+      <guid>https://dudewho.codes/talks/magic_methods/</guid>
       <description>A walk through of python dunder methods and their usages.
 
 Slides  Events: ChennaiPy, April 2018</description>
@@ -84,10 +95,10 @@ Slides  Events: ChennaiPy, April 2018</description>
     
     <item>
       <title>Opinionated DevOops</title>
-      <link>http://dudewho.codes/talks/devoops/</link>
+      <link>https://dudewho.codes/talks/devoops/</link>
       <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/devoops/</guid>
+      <guid>https://dudewho.codes/talks/devoops/</guid>
       <description>An opinionated talk I gave to my client team about devops practices.
 
 Slides  Events: Internal</description>
@@ -95,67 +106,67 @@ Slides  Events: Internal</description>
     
     <item>
       <title>Vue Studio</title>
-      <link>http://dudewho.codes/projects/vuestudio/</link>
+      <link>https://dudewho.codes/projects/vuestudio/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/projects/vuestudio/</guid>
+      <guid>https://dudewho.codes/projects/vuestudio/</guid>
       <description>Featured Skills: Python3, Django, Serverless, AWS ECS, lambda, Athena, Transcoder, Docker I worked on this when I was a product engineer at MadStreetDen.
 Vue Studio is an A.I powered video marketing tool that helps the customer to monetize their video assets. It enables the purchase of the fashion items appearing on the video, directly form the video player. I worked closely with the frontend and product design team in architecting and developing an highly scalable backend.</description>
     </item>
     
     <item>
       <title>Serverless Logging framework</title>
-      <link>http://dudewho.codes/projects/serverless/</link>
+      <link>https://dudewho.codes/projects/serverless/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/projects/serverless/</guid>
+      <guid>https://dudewho.codes/projects/serverless/</guid>
       <description>Featured Skills: Python, OOP, AWS Lambda, AWS Athena, AWS Kinesis, AWS quicksight, AWS s3, Redis Company: MadStreetDen
 Implemented a logging client with OOP paradigms in mind. The object oriented approach helped in distributing the ownership of data integrity among all owners of the microservices where logging client is used. I also implemented a serverless backend for this logging framework.</description>
     </item>
     
     <item>
       <title>Building and Scaling a serverless logging platform</title>
-      <link>http://dudewho.codes/talks/serverless_logging/</link>
+      <link>https://dudewho.codes/talks/serverless_logging/</link>
       <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/serverless_logging/</guid>
+      <guid>https://dudewho.codes/talks/serverless_logging/</guid>
       <description>Speed and agility are the most expected in today’s analytics tools. The quicker you get from idea to insights, the more you can innovate &amp;amp; perform ad-hoc data analysis. I will be talking about how we can use AWS serverless architecture to stream IoT data, managed by python. We can be up and running in minutes―starting small, but able to easily grow to millions of devices and billions of messages.</description>
     </item>
     
     <item>
       <title>IOT meets Serverless</title>
-      <link>http://dudewho.codes/talks/iot_serverless/</link>
+      <link>https://dudewho.codes/talks/iot_serverless/</link>
       <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/iot_serverless/</guid>
+      <guid>https://dudewho.codes/talks/iot_serverless/</guid>
       <description>Speed and agility are the most expected in today’s analytics tools. The quicker you get from idea to insights, the more you can innovate &amp;amp; perform ad-hoc data analysis. I will be talking about how we can use AWS serverless architecture to stream IoT data, managed by python. We can be up and running in minutes―starting small, but able to easily grow to millions of devices and billions of messages.</description>
     </item>
     
     <item>
       <title>RESTful DB</title>
-      <link>http://dudewho.codes/projects/restfuldb/</link>
+      <link>https://dudewho.codes/projects/restfuldb/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/projects/restfuldb/</guid>
+      <guid>https://dudewho.codes/projects/restfuldb/</guid>
       <description>Featured Skills: Python, Django, Postgresql, Psycopg2, ORM, uWSGI Company: MadStreetDen
 Developed a REST API driven microservice around PostgreSQL database. This helped in rapid iterations of schema changes. Even though there were multiple microservices using the database, only this microservice had to be touched in case of schema change. Was able to derive more insights about slow queries and traffic patterns that affects the DataBase in API layer itself. API versioning helped in canary deployment for new schema roll outs.</description>
     </item>
     
     <item>
       <title>Write code for humans, not machines</title>
-      <link>http://dudewho.codes/talks/code_for_humans/</link>
+      <link>https://dudewho.codes/talks/code_for_humans/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/code_for_humans/</guid>
+      <guid>https://dudewho.codes/talks/code_for_humans/</guid>
       <description>Any average programmer can write code by sitting hours and hours, pushing themselves through the sleepless nights but what it takes to write a better readable code?Forget about the design patterns, I will be talking ground zero from naming variables to handling errors in your python code. After the talk the audience will know how to get started with good programming habits and how not to annoy the code readers:)</description>
     </item>
     
     <item>
       <title>Don&#39;t just stop with your Fibonacci code</title>
-      <link>http://dudewho.codes/talks/fibonacci/</link>
+      <link>https://dudewho.codes/talks/fibonacci/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/talks/fibonacci/</guid>
+      <guid>https://dudewho.codes/talks/fibonacci/</guid>
       <description>A fun and meme filled lightning talk for university students on whats waiting for them in the software world out there and how to stand out in the crowd.
 
 Slides  Events: MuPy 2017, Manipal University</description>
@@ -163,10 +174,10 @@ Slides  Events: MuPy 2017, Manipal University</description>
     
     <item>
       <title>Ingestion MicroService</title>
-      <link>http://dudewho.codes/projects/ingestion/</link>
+      <link>https://dudewho.codes/projects/ingestion/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/projects/ingestion/</guid>
+      <guid>https://dudewho.codes/projects/ingestion/</guid>
       <description> 
 Featured Skills: Python, Multi-threading, Multi-processing Company: MadStreetDen
  Developed a framework to ingest and parse product catalogs from various sources like HTTP, FTP, AWS SQS, S3. Implemented in a Object Oriented way which helped in writing custom parser for different e-commerce clients.  </description>
@@ -174,20 +185,20 @@ Featured Skills: Python, Multi-threading, Multi-processing Company: MadStreetDen
     
     <item>
       <title>MAD stack</title>
-      <link>http://dudewho.codes/projects/madstack/</link>
+      <link>https://dudewho.codes/projects/madstack/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/projects/madstack/</guid>
+      <guid>https://dudewho.codes/projects/madstack/</guid>
       <description>Featured Skills: Python, Golang, PostgreSQL, Django, MicroServices, AWS, Docker Company: MadStreetDen
 One of the core engineer who helped in abstracting a large, monolithic A.I platform into microservices architecture. This paved the way for MadStreetDen to build a full scale e-commerce suite of products: vue commerce. This platform sits as a base for most of the A.I products coming out of the company.</description>
     </item>
     
     <item>
       <title>Message Routing MicroService</title>
-      <link>http://dudewho.codes/projects/message_router/</link>
+      <link>https://dudewho.codes/projects/message_router/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/projects/message_router/</guid>
+      <guid>https://dudewho.codes/projects/message_router/</guid>
       <description> 
 Featured Skills: Python, Multi-threading, Concurrency Company: MadStreetDen
  Built an I/O heavy, multi-tenant microservice that sits in ingestion part of the pipeline. This routes the data (products from the catalog) to different microservices and scales horizontally. Used multi threading to achieve the throughput of 10K messages per minute.  </description>
@@ -195,10 +206,10 @@ Featured Skills: Python, Multi-threading, Concurrency Company: MadStreetDen
     
     <item>
       <title>Decahose Data Management Platform</title>
-      <link>http://dudewho.codes/projects/ddmp/</link>
+      <link>https://dudewho.codes/projects/ddmp/</link>
       <pubDate>Tue, 02 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/projects/ddmp/</guid>
+      <guid>https://dudewho.codes/projects/ddmp/</guid>
       <description> 
 Featured Skills: Python, Apache Kafka, Storm, Cassandra, ElasticSearch Company: Serendio
  Architected and developed a real-time data pipeline. This pipeline ingests high volume of twitter stream, extract information on the fly using NLP and expose the stored data via REST API. This pipeline was deployed in bare metal servers.  </description>
@@ -206,10 +217,10 @@ Featured Skills: Python, Apache Kafka, Storm, Cassandra, ElasticSearch Company: 
     
     <item>
       <title>Emoto Data</title>
-      <link>http://dudewho.codes/projects/emotodata/</link>
+      <link>https://dudewho.codes/projects/emotodata/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/projects/emotodata/</guid>
+      <guid>https://dudewho.codes/projects/emotodata/</guid>
       <description> 
 Featured Skills: Python, Kafka, Cassandra, ElasticSearch Company: Serendio
  Developed an architecture to handle streaming data from Chinese websites. This service streams data from various Chinese websites like sina weibo, tencent, renren, etc. enriches it on the fly and stores them.  </description>
@@ -217,30 +228,21 @@ Featured Skills: Python, Kafka, Cassandra, ElasticSearch Company: Serendio
     
     <item>
       <title>About</title>
-      <link>http://dudewho.codes/about/</link>
+      <link>https://dudewho.codes/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/about/</guid>
+      <guid>https://dudewho.codes/about/</guid>
       <description>Apart from coding, I do other things as well. Books I use kindle to read, it&amp;rsquo;s easier to carry around all my books. I also export book highlights to my Notion app and have a glance at them anytime I want.
 Books I&amp;rsquo;ve read so far:
 Fiction: I simply love Brandon Sanderson&amp;rsquo;s stories. Mistborn Final Empire, Well of Ascension, Hero of Ages, Alloy of Law, Shadows of self, Bands of mourning, Elantris, Way of Kings, Words of Radiance, Oath bringer, Edge Dancer, Mistborn: Secret History, The Emperor&amp;rsquo;s Soul.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>http://dudewho.codes/2019-10-31_going-solo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://dudewho.codes/2019-10-31_going-solo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Blog</title>
-      <link>http://dudewho.codes/blog/</link>
+      <link>https://dudewho.codes/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/blog/</guid>
+      <guid>https://dudewho.codes/blog/</guid>
       <description> 
 I have few old blog posts, I am porting them from old website.
 Meanwhile checkout my blog on medium </description>
@@ -248,10 +250,10 @@ Meanwhile checkout my blog on medium </description>
     
     <item>
       <title>Newsletter</title>
-      <link>http://dudewho.codes/newsletter/</link>
+      <link>https://dudewho.codes/newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://dudewho.codes/newsletter/</guid>
+      <guid>https://dudewho.codes/newsletter/</guid>
       <description>A byte sized, opinionated newsletter on my journey through software engineering – day to day learnings, personal growth, experiments, articles and witty thoughts delivered to your inbox on a bi-weekly basis.
 No spam 🙅‍♂️
 Enter your email address</description>

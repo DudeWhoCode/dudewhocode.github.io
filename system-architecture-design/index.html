@@ -1,0 +1,535 @@
+<!doctype html>
+
+<html lang="en" class="h-100">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="generator" content="Hugo 0.59.1" />
+  <link rel="stylesheet" href="https://dudewho.codes/css/bootstrap.min.css">
+  
+  
+  <title>Introduction to System Architecture Design | DudeWhoCode</title>
+  <style>
+.container {
+  max-width: 700px;
+}
+#nav a {
+  font-weight: bold;
+  color: inherit;
+}
+#nav a.nav-link-active {
+  background-color: #212529;
+  color: #fff;
+}
+#nav-border {
+  border-bottom: 1px solid #212529;
+}
+#main {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+#home-jumbotron {
+  background-color: inherit;
+}
+#footer .container {
+  padding: 1em 0;
+}
+#footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+.font-125 {
+  font-size: 125%;
+}
+.tag-btn {
+  margin-bottom: 0.3em;
+}
+pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  background-color: transparent;
+  border-radius: 0;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+img,
+iframe,
+embed,
+video,
+audio {
+  max-width: 100%;
+}
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: initial;
+}
+</style>
+</head>
+  <body class="d-flex flex-column h-100">
+    <div id="nav-border" class="container">
+  <nav id="nav" class="nav justify-content-center">
+  
+  
+  
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/"><i data-feather="home"></i> Home</a>
+  
+    
+    
+      
+      
+      
+      
+       
+        
+        
+      
+    
+    
+    <a class="nav-link nav-link-active" href="/post/"><i data-feather="edit"></i> Blog</a>
+  
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/talks/"><i data-feather="mic"></i> Talks</a>
+  
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/projects/"><i data-feather="code"></i> Projects</a>
+  
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/newsletter"><i data-feather="send"></i> NewsLetter</a>
+  
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="https://twitter.com/@dudewhocode"><i data-feather="twitter"></i> Twitter</a>
+  
+  </nav>
+</div>
+    <div class="container">
+      <main id="main">
+        
+
+<h1>Introduction to System Architecture Design</h1>
+
+
+<i data-feather="calendar"></i> <time datetime="2019-01-12">Jan 12, 2019</time>
+
+  <br>
+  <i data-feather="tag"></i>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="https://dudewho.codes/tags/cloud">Cloud</a>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="https://dudewho.codes/tags/architecture">Architecture</a>
+  
+
+<br><br>
+
+
+<p><center><figure><a href="/images/cover.png">
+    <img src="/images/cover.png"/> </a>
+</figure>
+</center></p>
+
+<p>System Architecture Design sometimes simply known as System Design is a conceptual representation of the components and subcomponents that reflects the behaviour of a system.</p>
+
+<p>System architects or solution architects are the people who know what components to choose for the specific use case, make right trade-offs with awareness of the bottlenecks in the overall system.</p>
+
+<p>Usually, solution architects who have more years of experience tend to be good at system architecting because system design is an open-ended problem, there is no one correct solution.</p>
+
+<p>Mostly it’s trial and error experiments done with right trade-offs. So, experience teaches you what components to choose based on the problem at hand but in order to gain that experience you need to start somewhere. That’s why I am writing this article for the developers who have never done system designs.</p>
+
+<p>Today you are going to learn the basic components that are necessary to get started with system architecting. And principles to keep in mind while designing such systems.</p>
+
+<p><center><figure><a href="/images/2.png">
+    <img src="/images/2.png"
+         alt="Our new e-commerce startup"/> </a><figcaption>
+            <p><em>Our new e-commerce startup</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>Bonus, we will learn all these by designing the architecture for a real use case. We are going to build an e-commerce platform called Nozama.</p>
+
+<p>Before we begin you should know about cloud providers. These days almost everyone uses public cloud.</p>
+
+<p>Cloud providers are the companies that sell managed services like on-demand servers, databases and many other components. With a click of a button or by typing a command (if you may fancy it) you can spin up managed resources offered by them.</p>
+
+<p>Some popular cloud providers are Amazon Web Services(AWS), Google Cloud Platform and Microsoft Azure.</p>
+
+<h3 id="basic-concepts">Basic concepts</h3>
+
+<ol>
+<li>Latency</li>
+<li>Throughput</li>
+<li>Bandwidth</li>
+<li>Vertical Scaling, Horizontal Scaling, Auto Scaling</li>
+</ol>
+
+<p>These are the basic concepts you need to know to get started with system architecture. I will explain them one by one.</p>
+
+<h3 id="latency-throughput-bandwidth">Latency, Throughput, Bandwidth</h3>
+
+<p>A better way to understand latency and throughput is imagining a bunch of cars moving from point A(source) to point B(destination) through an expressway.</p>
+
+<p><center><figure><a href="/images/3.png">
+    <img src="/images/3.png"
+         alt="An expressway with a capacity of 4 vehicles"/> </a><figcaption>
+            <p><em>An expressway with a capacity of 4 vehicles</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>The time taken for any given car to travel from source to destination is the <strong>latency</strong> experienced by that car. Latency is always the unit of time. One can say the latency for that specific red car is 5 minutes.</p>
+
+<p>The <em>maximum number of vehicles</em> that can travel through this expressway is called <strong>bandwidth</strong>. Let’s say maximum 4 vehicles can go through this expressway. Then the bandwidth of this expressway is <em>4 vehicles/hour</em>.</p>
+
+<p>But at any given time due to traffic or some other reasons, the number of vehicles travelling through the expressway reduces. Let’s say it usually get reduced to <em>3</em> <em>vehicles/hour</em> at peak hours. The <em>actual number of vehicles</em> that can travel through the expressway at any given condition (irrespective of its maximum bandwidth) is called <strong>throughput</strong>.</p>
+
+<p>One should keep in mind that increasing the bandwidth affects the throughput but may not necessarily help to reduce the latency.</p>
+
+<p>Now we got some requirement that we need to accommodate more vehicles in our expressway.</p>
+
+<p>We will do this by scaling our existing expressway to 3 lanes. Now it can accommodate maximum <em>8</em> <em>vehicles/hour</em>.</p>
+
+<p><center><figure><a href="/images/4.png">
+    <img src="/images/4.png"
+         alt="Adding one more lane to existing expressway"/> </a><figcaption>
+            <p><em>Adding one more lane to existing expressway</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>Since our expressway’s bandwidth has been increased to <em>8</em> <em>vehicles/hour.</em> At peak hours the throughput becomes <em>7 vehicles/hour</em>.</p>
+
+<p>Even though the throughput is better now, it does not necessarily reduce the time taken by a car to get to its destination. Some cars still might experience latency because of their maximum cruising speed or patchy roads in their lane or sometimes even a slow driver.</p>
+
+<blockquote class="blockquote">
+  <p class="mb-0">
+"Increasing the bandwidth affects the throughput but may not necessarily help to reduce the latency."
+</p>
+  
+</blockquote>
+
+<p>When it comes to computer systems, you can assume the cars are the data packets and expressway is our channel or system. The bandwidth or throughput is measured in bits/s or Mbits/s.</p>
+
+<p>If you notice, you just scaled the expressway by adding more lanes to the existing one. Doing this might disturb the traffic in the expressway but it scales in this scenario. In computer systems, this is called <strong>vertical scaling</strong>. When you scale vertically you add more resources like CPU, RAM and SSD to the existing machine.</p>
+
+<p>You can also scale the expressway without disturbing the existing traffic. This can be done by building another parallel expressway.</p>
+
+<p><center><figure><a href="/images/5.png">
+    <img src="/images/5.png"
+         alt="Scaling throughput by constructing one more expressway without disturbing the other one"/> </a><figcaption>
+            <p><em>Scaling throughput by constructing one more expressway without disturbing the other one</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>This is called <strong>horizontal scaling</strong>. In system architectures, you add more machines by just replicating them to increase the throughput of the overall system.</p>
+
+<p>Now imagine, you somehow have the ability to build and destroy an expressway instantly. During peak times in order to increase the throughput, you can replicate the expressways (horizontally scale) based on the traffic. Then when traffic returns to normal you can destroy the extra expressways. This is nothing but <strong>auto-scaling</strong>.</p>
+
+<p>In computer systems, based on the load experienced by our system we do <strong>auto-scaling</strong> by replicating the machines. When load reduces we remove the machines that are idle.</p>
+
+<p>Now you know the very basic concepts to get started with system design. Let’s build the architecture for our e-commerce startup by going through some components offered by the cloud provider.</p>
+
+<h3 id="basic-components">Basic components</h3>
+
+<p>System design involves assembling the right components to solve the problem at hand. There are thousands of components or stacks available from different cloud providers. But worry not, you don’t have to know all those to build a simple architecture.</p>
+
+<p>We will see some basic components to get you started and while explaining them you will also eventually build an architecture for our e-commerce website Nozama. Here are some basic compnents.</p>
+
+<ol>
+<li>Virtual Machine</li>
+<li>Load Balancer</li>
+<li>Database</li>
+<li>Cache</li>
+</ol>
+
+<p>Simple isn’t it. With these 4 components, you can build a scalable e-commerce website. Let’s get started.</p>
+
+<h3 id="virtual-machine">Virtual Machine</h3>
+
+<p>Virtual Machine(VM) is the basic component of any system architecture. It’s nothing but a computer in the cloud. When you usually <code>ssh</code> to an IP from your local computer, you are logging into one of the machines in the cloud.</p>
+
+<p>It is called a “virtual” machine because your cloud provider will allocate the resources(CPU, RAM, SSD, Network Bandwidth) from large hardware and emulate a computer with resources you requested.</p>
+
+<p><center><figure><a href="/images/6.png">
+    <img src="/images/6.png"
+         alt="ssh-ing into a VM in cloud"/> </a><figcaption>
+            <p><em>ssh-ing into a VM in cloud</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>You can request a bare metal server too. Those servers are not emulated, the cloud provider will assign dedicated hardware for you. They come with raw power but also with a price tag.</p>
+
+<p><center><figure><a href="/images/7.png">
+    <img src="/images/7.png"
+         alt="Our single VM happily living in the cloud with nozama’s code in it"/> </a><figcaption>
+            <p><em>Our single VM happily living in the cloud with nozama’s code in it</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>This is going to be the base component for Nozama’s architecture. We have deployed the code in this VM by just <code>scp</code>-ing to it. We are launching our startup in a few minutes.</p>
+
+<h3 id="load-balancer">Load Balancer</h3>
+
+<p>A Load balancer is a component used to <em>balance the load</em> across VMs. Obvious duh. But let me explain how it is going to help us to handle Nozama’s traffic.</p>
+
+<p><center><figure><a href="/images/8.png">
+    <img src="/images/8.png"
+         alt="A happy customer browsing products at nozama.com"/> </a><figcaption>
+            <p><em>A happy customer browsing products at nozama.com</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>Remember our Nozama store has been launched… Oh, wait there’s already a customer browsing products.</p>
+
+<p>When someone visits www.nozama.com from their browser, the request goes to VM1 right now. The customer has a latency of 2 seconds, which is acceptable.</p>
+
+<p>As we speak, more people are visiting Nozama. It seems our startup is on fire. Like literally.</p>
+
+<p><center><figure><a href="/images/8.png">
+    <img src="/images/9.png"
+         alt="Nozama is on fire"/> </a><figcaption>
+            <p><em>Nozama is on fire</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>You realize what’s happening here? Our VM1 handled up to 3 customers, even there latency increased to 3 seconds. When dozens of customers started visiting Nozama, our server ran out of resources and died, because with so much CPU or memory it can handle only so much load.</p>
+
+<p>Look at the latency in the 3rd panel where there are more than 3 users, it went to 15 seconds. Who would wait for 15 seconds for a website to load, our users are leaving Nozama.</p>
+
+<p>To handle such traffic we are going to do <strong>horizontal scaling</strong>. Sounds familiar? scroll back up if you want to read about horizontal scaling once more.</p>
+
+<p><center><figure><a href="/images/10.png">
+    <img src="/images/10.png"
+         alt="4 servers ready to handle more traffic"/> </a><figcaption>
+            <p><em>4 servers ready to handle more traffic</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>We are just going to spin up more servers on the cloud. VM1, VM2, VM3, VM4, we will have 4 servers.</p>
+
+<p>In order to distribute the traffic across our VMs, we have to use a load balancer.</p>
+
+<p>Apart from distributing the traffic, the load balancer also keeps an eye on our servers.</p>
+
+<p><center><figure><a href="/images/11.png">
+    <img src="/images/11.png"
+         alt="Health check done by load balancer with 3 VMs behind it"/> </a><figcaption>
+            <p><em>Health check done by load balancer with 3 VMs behind it</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>Load balancers do something called health check. For a given interval it tries to reach each one of our servers, if any of the servers is not responding it stops sending traffic to that server.</p>
+
+<p>Once we have added a load balancer to the architecture. The load balancer becomes the front-facing part of our infrastructure. This also makes our infrastructure secure, because no one will be able to see the IPs of our servers, we expose only the load balancer’s endpoint.</p>
+
+<p><center><figure><a href="/images/12.png">
+    <img src="/images/12.png"
+         alt="Our machines delivering all Nozama’s traffic under 2s"/> </a><figcaption>
+            <p><em>Our machines delivering all Nozama’s traffic under 2s</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<h3 id="database"><strong>Database</strong></h3>
+
+<p>We’ve been doing good progress in building the architecture of our e-commerce startup. But we have not been talking about one important component, Database. Any system that needs to store and retrieve data should have some kind of database to make our life easier.</p>
+
+<p>We are not going to see why we need a database, people who are into programming should know that answer (it’s absolutely fine if you don’t know, there are tons of first-class articles which is just a google away). Instead, we will briefly talk about what kind of database to choose based on thd use case.</p>
+
+<p>Primarily there are two types of _data_bases.</p>
+
+<ol>
+<li><em>Non relational</em> or noSQL</li>
+<li><em>Relational</em> or SQL</li>
+</ol>
+
+<h4 id="non-relational-database">Non-relational database</h4>
+
+<p><strong>Column-oriented DB:</strong> Cassandra, Clickhouse and Scylladb are some of the columnar databases. They are primarily used to store and retrieve a high volume of semi-structured <a href="https://en.wikipedia.org/wiki/Online_analytical_processing">OLAP</a> transactions. In column-oriented DBs each column forms a record and most of the databases support SQL like queries.</p>
+
+<p><strong>Document-oriented DB:</strong> CouchDB, CouchBase and MongoDB are examples of document -oriented DB. Here everything is stored as a document and we can use it to store the semi-structured or totally unstructured data where we don’t know the schema beforehand or the schema changes very frequently.</p>
+
+<p><strong>Graph-oriented DB:</strong> Amazon Neptune, Neo4j, OrientDB are some examples of modern graph-oritened databases. When your data can be represented as nodes and has many to many relationships between them, you should consider picking this.</p>
+
+<p><strong>Key value oriented DB:</strong> These kinds of databases stores the data in the form of hashmaps/dictionaries. They are mostly in-memory and widely used in places where high-speed data retrieval is necessary. Redis is one of the popular KV stores that support different data structures.</p>
+
+<p>There are also many simple KV stores like BoltDB and RocksDB that can be embedded in your code in order to maintain some state. And not to mention robust, distributed KV stores like Memcached that’s used by several distributed systems.</p>
+
+<h4 id="relational-database">Relational Database</h4>
+
+<p>There are many good old relational databases like Postgresql, MySQL and OracleDB. As the name indicates we use a relational database when there is some relation between the data we deal with. These databases are <a href="https://en.wikipedia.org/wiki/ACID_%28computer_science%29">ACID</a> compliant.</p>
+
+<p>Any e-commerce data will have tight relationships between them. For example, one user will have multiple orders. One order will have multiple products. One user will have multiple wishlists. Again one wishlist will have multiple products etc.</p>
+
+<p><center><figure><a href="/images/13.png">
+    <img src="/images/13.png"
+         alt="Sample schema representation of Nozama"/> </a><figcaption>
+            <p><em>Sample schema representation of Nozama</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p><center><figure><a href="/images/14.png">
+    <img src="/images/14.png"
+         alt="Servers establishing the connection to our new member in the architecture"/> </a><figcaption>
+            <p><em>Servers establishing the connection to our new member in the architecture</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>Its obvious that Nozama needs a relational database and we have chosen PostgreSQL.</p>
+
+<p>P.S. One should know that at one point of time the database will become the bottleneck in any architecture. But we are not going to optimize it right away.</p>
+
+<p>If you start over optimizing the systems even before you face the real problem, it causes more harm than good. Keep in mind that premature optimization is bad.</p>
+
+<blockquote class="blockquote">
+  <p class="mb-0">
+"Premature optimization is the root of all evil."
+</p>
+  
+  <footer class="blockquote-footer">Donald Knuth</footer>
+  
+</blockquote>
+
+<h3 id="cache">Cache</h3>
+
+<p>Cache is used to store the data which are accessed very frequently with as minimum latency as possible. Most of the caches are in-memory to provide low latency data access.</p>
+
+<p><center><figure><a href="/images/15.png">
+    <img src="/images/15.png"
+         alt="Holiday season deals on Nozama website"/> </a><figcaption>
+            <p><em>Holiday season deals on Nozama website</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>It’s the holiday season, and deals are going on in Nozama. The stock won’t last as people will be swarming the products page to buy the discounted items. We need to update the product page instantly when something goes out of stock.</p>
+
+<p>In this scenario, the number of in-stock items for a specific set of discounted products is the data that is going to be accessed very frequently. It’s okay if we use the database to query it in normal hours, but this is the peak traffic time as the deals are going on and we cannot afford latency. Already our Postgres database will be loaded dealing with other queries.</p>
+
+<p>We are going to store the frequently accessed data into a cache layer. This way we don’t have to wait for the database query which is too costly at this moment.</p>
+
+<p>We are going to use <a href="https://redis.io/">Redis</a> as a cache layer to store our stocks. While redis supports different data structures and we choose hashmap so that the cost for retrieval is <a href="https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/">O(1)</a>. Our data in Redis will look something like this.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">in_stock: {&lt;product_id&gt;: 40, &lt;product_id&gt;: 10, &lt;product_id&gt;: 0}</pre></div>
+<p>So when the deals page is accessed, the stock details are taken from the cache layer instead of hitting the database.</p>
+
+<p><center><figure><a href="/images/16.png">
+    <img src="/images/16.png"
+         alt="Our current architecture of Nozama"/> </a><figcaption>
+            <p><em>Our current architecture of Nozama</em></p>
+        </figcaption>
+</figure>
+</center></p>
+
+<p>Above is our current architecture for Nozama. Now our e-commerce website can handle 1000’s of concurrent users. In above diagram if you replace all freehand sketches with proper boxes and use some arrows, it becomes the formal architecture diagram.</p>
+
+<p>Pat yourself on the back. I know it’s a long post and you came this far. You learnt the basic concepts and components of system design. You also learnt how to architect a simple and scalable solution for an e-commerce website.</p>
+
+<p>I say this again, system designs are open-ended problems. The architecture we designed now might not work for all scenarios. But If you have not done any architecture designs, I am sure it would’ve given you a gist of it.</p>
+
+<hr />
+
+<p><br>
+<em>Found this post helpful? or have some questions? <a href="https://twitter.com/dudewhocode">Tweet at me</a>.</em></p>
+
+<h5 id="do-you-have-the-next-big-idea-or-want-to-scale-your-existing-product">Do you have the next big idea? or want to scale your existing product?</h5>
+
+<p>Hire me to help you craft software the right way.<br />
+email: <a href="mailto:naren@coppermind.io">naren@coppermind.io</a></p>
+
+
+
+      </main>
+    </div>
+    
+<footer id="footer" class="mt-auto text-center text-muted">
+  <div class="container">
+    All rights reserved. @DudeWhoCode
+  </div>
+</footer>
+
+    <script src="https://dudewho.codes/js/feather.min.js"></script>
+<script>
+  feather.replace()
+</script>
+
+
+    
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </body>
+</html>

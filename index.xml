@@ -17,8 +17,7 @@
       <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dudewho.codes/talks/programming_language/</guid>
-      <description>-- 
-Creating an interpreter or a programming language can sound complicated but in reality getting started with it is not that difficult as it sounds – it is a bunch of switch statements and recursive logics. In this talk I am going to give an introduction to interpreter internals and we are going to walk through the high level blocks and the Golang code to create a simple interpreted programming language.</description>
+      <description>Creating an interpreter or a programming language can sound complicated but in reality getting started with it is not that difficult as it sounds – it is a bunch of switch statements and recursive logics. In this talk I am going to give an introduction to interpreter internals and we are going to walk through the high level blocks and the Golang code to create a simple interpreted programming language.</description>
     </item>
     
     <item>
